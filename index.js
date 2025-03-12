@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const targetElement = document.getElementById('target-element-id'); // Replace with the actual ID of the target element
-    targetElement.textContent = 'This is really cool!';
-});
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("The DOM has loaded");
+    const paragraph = document.getElementById('text');
+    paragraph.textContent = "This is really cool!";
+  });
